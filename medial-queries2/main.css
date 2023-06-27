@@ -5,7 +5,7 @@
  *********************************/
 /* give each element a border */
 .container {
-    border: 1px solid mediumvioletred;
+    /* border: 1px solid mediumvioletred; */
     display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -70,32 +70,41 @@ body {
 
 
 
-@media (min-width: 600px) {
+@media (min-width: 1200px) {
   .b {
     flex: 60%;
     margin-right: 20px;
+    max-height: 50vh;
   }
-  .c .d .e {
-    flex: 1%;
-    width: 1vw;
-    
-  }
+
   .container {
-   
   .a {order: 1;}
-  
   .b {order: 2;}
-  
   .c {order: 4;}
-  
   .d {order: 5;}
-  
   .e {order: 6;}
-  
   .f {order: 3;}
 }
-.f {
+.f { 
   flex: 30%;
-  
+  min-height: 90vh;
+}
+.e{
+  flex: 10%;
+  max-width: 18.9vw;
+  max-height: 35.3vh;
+  margin-top: -40vh;
+}
+.c{ 
+  flex: 10%;
+  max-width: 18.9vw;
+  max-height: 35.3vh;
+  margin-top: -40vh;
+}
+.d{
+  flex: 10%;
+  max-width: 18.9vw;
+  max-height: 35.3vh;
+  margin-top: -40vh;
 }
 }

@@ -1,3 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka+One&display=swap');
+
 body {
   background: peachpuff;
+}
+
+.container {
+  border: 1px solid mediumvioletred;
+  display: flex;
+flex-wrap: wrap;
+text-align: center;
+padding: 20px;
+}
+.a {
+  
+  background-color: #f03434;
+  padding: 10px;
+  flex: 100%;
+  margin-bottom: 20px;
+  min-height: 10vh;
+}
+.b {
+  
+  background-color: #f03434;
+  padding: 10px;
+  margin-right: 10px;
+  flex: 25%;
+  margin-bottom: 20px;
+  min-height: 10vh;
+ 
+}
+.c {
+  
+  background-color: #f03434;
+  padding: 10px;
+  margin-right: 10px;
+  flex: 25%;
+  margin-bottom: 20px;
+  min-height: 10vh;
+  
+}
+.d{
+  
+  background-color: #f03434;
+  padding: 10px;
+  
+  flex: 25%;
+  margin-bottom: 20px;
+  min-height: 10vh;
+ 
+}
+.e {
+  
+  background-color: #f03434;
+  padding: 10px;
+  margin-right: 10px;
+  flex: 25%;
+  margin-bottom: 20px;
+  min-height: 10vh;
+}
+.f {
+  
+  background-color: #f03434;
+  padding: 10px;
+  margin-right: 10px;
+  flex: 25%;
+  margin-bottom: 20px;
+  min-height: 10vh;
+}
+.g {
+  
+  background-color: #f03434;
+  padding: 10px;
+  
+  flex: 25%;
+  margin-bottom: 20px;
+  min-height: 10vh;
+}
+.h {
+  
+  background-color: #f03434;
+  padding: 10px;
+  flex: 100%;
+  margin-bottom: 20px;
+  min-height: 30vh;
+}
+
+@media (min-width: 1200px) {
+  .h { 
+    flex: 30%;
+    min-height: 90vh;
+    margin-left: 10px;
+  }
+
+  .container {
+  .a {order: 1;}
+  .b {order: 2;}
+  .c {order: 3;}
+  .d {order: 4;}
+  .e {order: 6;}
+  .f {order: 7;}
+  .g {order: 8;}
+  .h {order: 5;}
+}
+/* .b {
+    flex: 60%;
+    margin-right: 20px;
+    max-height: 50vh;
+  } */
+.b{
+  flex: 20%;
+  max-height: 40vh;
+ 
+}
+.c{ 
+  flex: 20%;
+  max-height: 40vh;
+ 
+}
+.d{
+  flex: 20%;
+  max-height: 40vh;
+
+}
+.e{
+  
+  flex: 20%;
+  max-height: 45.3vh;
+  max-width: 19.9vw;
+  margin-top: -50vh;
+  
+
+}
+.f{
+  flex: 20%;
+  max-height: 45.3vh;
+  max-width: 19.9vw;
+  margin-top: -50vh;
+}
+.g{
+  flex: 20%;
+  max-height: 45.3vh;
+  max-width: 19.9vw;
+  margin-top: -50vh;
+  margin-right: 10px;
+  
+  
+}
+
+
 }
