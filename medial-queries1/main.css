@@ -1,3 +1,56 @@
+/* import a web font */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka+One&display=swap');
+/*********************************
+ * Build Helpers
+ *********************************/
+/* give each element a border */
+.container {
+    border: 1px solid mediumvioletred;
+    display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 20px;
+}
+
 body {
   background: blanchedalmond;
+
+}
+.a {
+  
+  background-color: #f03434;
+  padding: 10px;
+  flex: 100%;
+  margin-bottom: 20px;
+  min-height: 10vh;
+}
+
+.b {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 100%;
+  margin-bottom: 20px;
+  min-height: 75vh;
+  
+
+}
+.c {
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 100%;
+  min-height: 10vh;
+
+
+}
+
+@media (min-width: 600px) {
+  .b {
+    flex: 49%;
+    margin-bottom: 0%;
+    margin-right: 20px;
+  }
+  .c {
+    flex: 10%;
+    
+  }
 }

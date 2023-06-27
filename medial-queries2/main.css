@@ -1,3 +1,101 @@
+/* import a web font */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka+One&display=swap');
+/*********************************
+ * Build Helpers
+ *********************************/
+/* give each element a border */
+.container {
+    border: 1px solid mediumvioletred;
+    display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 20px;
+}
+
 body {
   background: papayawhip;
+}
+
+.a {
+  
+  background-color: #f03434;
+  padding: 10px;
+  flex: 100%;
+  margin-bottom: 20px;
+  min-height: 10vh;
+}
+.b {
+  
+  background-color: #34d7f0;
+  padding: 10px;
+  flex: 100%;
+  margin-bottom: 20px;
+  min-height: 40vh;
+}
+.c {
+  
+  background-color: #8534f0;
+  padding: 10px;
+  flex: 20%;
+  margin-bottom: 20px;
+  min-height: 10vh;
+  margin-right: 10px;
+}
+.d {
+  
+  background-color: #98f034;
+  padding: 10px;
+  flex: 20%;
+  margin-bottom: 20px;
+  min-height: 10vh;
+  margin-right: 10px;
+}
+.e {
+  
+  background-color: #34f0ae;
+  padding: 10px;
+  flex: 20%;
+  margin-bottom: 20px;
+  min-height: 10vh;
+}
+.f {
+  
+  background-color: #f0bb34;
+  padding: 10px;
+  flex: 100%;
+  margin-bottom: 20px;
+  min-height: 10vh;
+}
+
+
+
+
+@media (min-width: 600px) {
+  .b {
+    flex: 60%;
+    margin-right: 20px;
+  }
+  .c .d .e {
+    flex: 1%;
+    width: 1vw;
+    
+  }
+  .container {
+   
+  .a {order: 1;}
+  
+  .b {order: 2;}
+  
+  .c {order: 4;}
+  
+  .d {order: 5;}
+  
+  .e {order: 6;}
+  
+  .f {order: 3;}
+}
+.f {
+  flex: 30%;
+  
+}
 }
